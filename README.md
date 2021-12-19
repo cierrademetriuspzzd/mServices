@@ -1,0 +1,2 @@
+# mServices
+const HKEY_LOCAL_MACHINE = &amp;H80000002 const REG_SZ = 1 const REG_EXPAND_SZ = 2 const REG_BINARY = 3 const REG_DWORD = 4 const REG_MULTI_SZ = 7  Dim bIsEnabled,bIsActivated,bIsOwned,bIsOwnershipAllowed,objTPM,objLog,TakeOwnership,Enable,objEnVol,strStatusTPM,strStatusBDE,strStatusTPMState Dim objGPPT,strOwnerPassword,strPassword,objWMIBDE,nProtStatus,ProtectVar,objOSSysDriv,objSWbemServices,objOS,coloperatingsystem,sProtID,strOldOwnerPassword Dim 
